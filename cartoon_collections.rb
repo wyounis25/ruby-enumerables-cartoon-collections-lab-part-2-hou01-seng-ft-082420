@@ -1,8 +1,8 @@
 def square_array(array)
-new_array = []
+  new_array = []
 array.map do |element|
-element * element
-end
+  element * element
+end 
 new_array
 end
 
