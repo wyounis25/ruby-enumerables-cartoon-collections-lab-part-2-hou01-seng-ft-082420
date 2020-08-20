@@ -1,18 +1,20 @@
 def square_array(array)
-  new_array = []
-array.map do |element|
-  element * element
+  array.map do |element|
+    element * element
+  end
 end
-new_array
-end
+
+
 
 def summon_captain_planet(planeteer_calls)
 new_array = []
 planeteer_calls.map do |element|
-  "#{element}.capitalize!"
+
 end
   new_array
 end
+
+
 
 
 def long_planeteer_calls(planeteer_calls)
