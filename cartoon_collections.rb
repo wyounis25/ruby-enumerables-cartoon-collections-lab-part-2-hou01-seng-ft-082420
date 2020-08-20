@@ -2,7 +2,7 @@ def square_array(array)
   new_array = []
 array.map do |element|
   element * element
-end 
+end
 new_array
 end
 
